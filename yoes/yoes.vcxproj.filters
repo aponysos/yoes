@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="yoes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="yoes_test.cpp" />
+    <ClCompile Include="yoes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="input">
+      <UniqueIdentifier>{1ef09072-41a9-43d5-8dbc-a270dd4691d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="findoutmore.txt">
+      <Filter>input</Filter>
+    </Text>
+    <Text Include="headwords.txt">
+      <Filter>input</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
